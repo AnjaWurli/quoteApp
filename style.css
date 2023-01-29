@@ -28,19 +28,19 @@ button:active {
   outline: 2px solid black;
 }
 
-p::before {
+blockquote::before {
   content: "\201C";
 }
 
-p::after {
+blockquote::after {
   content: "\201D";
 }
 
-blockquote figcaption::before {
+figcaption::before {
   content: "- ";
 }
 
-p {
+blockquote {
   padding: 15px;
   background: #eee;
   border-radius: 5px;
@@ -49,6 +49,6 @@ p {
 }
 
 figcaption {
-  margin-left: 2rem;
+  margin-left: 4rem;
   font-family: cursive;
 }

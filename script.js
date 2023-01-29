@@ -8,7 +8,7 @@ function getQuote() {
       const quote = data.quote;
       const author = data.author;
 
-      document.querySelector("p").innerText = quote;
+      document.querySelector("blockquote").innerText = quote;
       document.querySelector("figcaption").innerText = author;
     });
 }
